@@ -2,6 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   output: 'export',
+  images: {
+    unoptimized: true, // <-- Yeh line add kar dein
+  },
   /* config options here */
   turbopack: {
     rules: {
