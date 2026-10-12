@@ -18,7 +18,7 @@ import {
   Star,
 } from "lucide-react";
 
-// Strictly Typed Animation Variants
+//Animation Variants
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 50 },
   visible: (i: number = 0) => ({
@@ -81,7 +81,7 @@ const servicesData = [
     desc: "Beautifully planned birthday celebrations, anniversary galas, family reunions, and intimate gatherings.",
     icon: Users,
     image: "/private.png",
-    href: "/services/private-social-events",
+    href: "/services/private-events",
     highlights: ["Customized Decor Themes", "Intimate Atmosphere Design", "Gourmet Finger Foods & Beverages"],
   },
   {
@@ -91,7 +91,7 @@ const servicesData = [
     desc: "Vibrant and joyful celebrations, Qawwali nights, engagement parties, and festive occasions executed to perfection.",
     icon: PartyPopper,
     image: "/social.png",
-    href: "/services/private-social-events",
+    href: "/services/social-celebrations",
     highlights: ["Ambient Mood Lighting", "Sound & Stage Management", "Guest Protocol Management"],
   },
 ];
